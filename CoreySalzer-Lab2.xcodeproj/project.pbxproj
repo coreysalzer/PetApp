@@ -12,6 +12,8 @@
 		A54DC2A11E48F0A8009CFCE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54DC29F1E48F0A8009CFCE7 /* Main.storyboard */; };
 		A54DC2A31E48F0A8009CFCE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54DC2A21E48F0A8009CFCE7 /* Assets.xcassets */; };
 		A54DC2A61E48F0A8009CFCE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54DC2A41E48F0A8009CFCE7 /* LaunchScreen.storyboard */; };
+		A54DC2B01E48F15D009CFCE7 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54DC2AF1E48F15D009CFCE7 /* DisplayView.swift */; };
+		A54DC2B21E4992B1009CFCE7 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54DC2B11E4992B1009CFCE7 /* Pet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A54DC2A21E48F0A8009CFCE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A54DC2A51E48F0A8009CFCE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A54DC2A71E48F0A8009CFCE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54DC2AF1E48F15D009CFCE7 /* DisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		A54DC2B11E4992B1009CFCE7 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				A54DC2A21E48F0A8009CFCE7 /* Assets.xcassets */,
 				A54DC2A41E48F0A8009CFCE7 /* LaunchScreen.storyboard */,
 				A54DC2A71E48F0A8009CFCE7 /* Info.plist */,
+				A54DC2AF1E48F15D009CFCE7 /* DisplayView.swift */,
+				A54DC2B11E4992B1009CFCE7 /* Pet.swift */,
 			);
 			path = "CoreySalzer-Lab2";
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54DC2B01E48F15D009CFCE7 /* DisplayView.swift in Sources */,
+				A54DC2B21E4992B1009CFCE7 /* Pet.swift in Sources */,
 				A54DC29E1E48F0A8009CFCE7 /* ViewController.swift in Sources */,
 				A54DC29C1E48F0A8009CFCE7 /* AppDelegate.swift in Sources */,
 			);
